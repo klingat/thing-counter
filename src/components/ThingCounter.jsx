@@ -12,8 +12,8 @@ const Grid = styled.div`
 `;
 
 const ClickableBox = styled.div`
-  min-width: 20px;
-  min-height: 20px;
+  min-width: 25px;
+  min-height: 25px;
   background: ${({ $isChecked }) => ($isChecked ? "yellow" : "grey")};
   border-radius: 50%;
   &:hover {
