@@ -7,13 +7,13 @@ const Grid = styled.div`
   background: #141414;
   display: flex;
   flex-flow: wrap;
-  gap: 6px;
+  gap: 4px;
   justify-content: center;
 `;
 
 const ClickableBox = styled.div`
-  min-width: 30px;
-  min-height: 30px;
+  min-width: 20px;
+  min-height: 20px;
   background: ${({ $isChecked }) => ($isChecked ? "yellow" : "grey")};
   border-radius: 50%;
   &:hover {
