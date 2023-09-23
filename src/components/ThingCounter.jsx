@@ -16,10 +16,6 @@ const ClickableBox = styled.div`
   min-height: 25px;
   background: ${({ $isChecked }) => ($isChecked ? "yellow" : "grey")};
   border-radius: 50%;
-  &:hover {
-    background: pink;
-    cursor: pointer;
-  }
 `;
 
 const INITIAL_VALUES = {
