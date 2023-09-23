@@ -1,6 +1,5 @@
 import { useState } from "react";
 import styled from "styled-components";
-import { v4 as uuidv4 } from 'uuid';
 import useLocalStorage from "../hooks/useLocalStorage";
 
 const Grid = styled.div`
@@ -35,7 +34,6 @@ export const ThingCounter = () => {
 
   const save = () => {
     console.log('save')
-    console.log(uuidv4());
   }
 
   const togglecountedThingsState = (index) => {
