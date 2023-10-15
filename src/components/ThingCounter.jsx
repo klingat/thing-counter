@@ -25,7 +25,7 @@ const Grid = styled.div`
   flex-flow: wrap;
   gap: 8px;
   justify-content: center;
-  max-height: 70vh;
+  max-height: 60vh;
   border-top: 1px solid ${YELLOW};
   border-bottom: 1px solid ${YELLOW};
   overflow: auto;
